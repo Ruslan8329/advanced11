@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Contact Book</h1>
+    <form class="contactForm">
+      <input
+        type="text"
+        name="firstName"
+        class="firstName"
+        placeholder="First Name"
+        required
+      />
+      <input
+        type="text"
+        name="lastName"
+        class="lastName"
+        placeholder="Last Name"
+        required
+      />
+      <input
+        type="text"
+        name="phoneNumber"
+        class="phoneNumber"
+        placeholder="Phone Number"
+        required
+      />
+      <input
+        type="email"
+        name="email"
+        class="email"
+        placeholder="Email"
+        required
+      />
+      <button type="submit">Add Contact</button>
+    </form>
+    <ul class="contactList"></ul>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.8/axios.min.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
